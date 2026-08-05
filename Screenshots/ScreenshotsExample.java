@@ -22,10 +22,10 @@ public class ScreenshotsExample {
 		File screenshot1=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshot1, new File(".\\Screenshots\\InstagramHomepage.png"));
 		
-		//2. Capture Screenshot as a Section on page
-		WebElement loginModule=driver.findElement(By.className("x1n2onr6")); 
-		File screenshot2=loginModule.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshot2, new File(".\\Screenshots\\InstagramLoginModule.png"));
+//		//2. Capture Screenshot as a Section on page
+//		WebElement loginModule=driver.findElement(By.className("x1n2onr6")); 
+//		File screenshot2=loginModule.getScreenshotAs(OutputType.FILE);
+//		FileUtils.copyFile(screenshot2, new File(".\\Screenshots\\InstagramLoginModule.png"));
 
 		
 		//3. Capture Screenshot using Element on a page
